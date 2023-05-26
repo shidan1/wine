@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #eee;
+}
+
+#bottle {
+    width: 200px;
+    height: 300px;
+    background-image: url("bottle_image.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+#wine {
+    position: absolute;
+    bottom: 22px;
+    left: 37%; /* Adjust these values to fit the interior of your bottle */
+    width: 28.5%; /* Adjust these values to fit the interior of your bottle */
+    height: 50%;
+    background-color: #800020; /* Wine color */
+}
+
+#drinkButton {
+    margin-top: 20px;
+}
