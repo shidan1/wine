@@ -1,8 +1,8 @@
 let wineLevel = 50; // Start with the wine at 100%
 
-document.getElementById('drinkButton').addEventListener('click', function() {
+document.getElementById('bottle').addEventListener('click', function() {
     if (wineLevel > 0) {
-        wineLevel -= 5; // Lower the wine level by 10% (1 cm)
+        wineLevel -= 5; // Lower the wine level by 10%
         document.getElementById('wine').style.height = `${wineLevel}%`;
 
         // Play the audio file.
